@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<system>
+<planet>
+    <name>Mercedes Omega</name>
+    <map>./data/earth.jpg</map>
+    <x>1730</x>
+    <y>0</y>
+    <z>4710</z>
+    <radius>100</radius>
+    <a_r>0.3</a_r>
+    <a_g>0.5</a_g>
+    <a_b>0.7</a_b>
+    <alpha>23.45</alpha>
+    <atmosphere_thickness>1</atmosphere_thickness>
+    <atmosphere_falloff>1</atmosphere_falloff>
+    <rotation>0.07</rotation>
+</planet>
+<planet>
+    <name>Hell Mining</name>
+    <map>./data/Lava.jpg</map>
+    <x>-1450</x>
+    <y>0</y>
+    <z>560</z>
+    <radius>50</radius>
+    <a_r>0.3</a_r>
+    <a_g>0.08</a_g>
+    <a_b>0.05</a_b>
+    <alpha>45</alpha>
+    <atmosphere_thickness>1</atmosphere_thickness>
+    <atmosphere_falloff>1</atmosphere_falloff>
+    <rotation>0.01</rotation>
+</planet>
+<planet>
+    <name>Lupus Minor</name>
+    <map>./data/gas.jpg</map>
+    <x>2828</x>
+    <y>0</y>
+    <z>-2828</z>
+    <radius>90</radius>
+    <a_r>0.2</a_r>
+    <a_g>0.0</a_g>
+    <a_b>0.2</a_b>
+    <alpha>-45</alpha>
+    <atmosphere_thickness>1</atmosphere_thickness>
+    <atmosphere_falloff>2</atmosphere_falloff>
+    <rotation>-0.05</rotation>
+</planet>
+<planet>
+    <name>Lupus Major</name>
+    <map>./data/gas.jpg</map>
+    <x>-2900</x>
+    <y>0</y>
+    <z>-1000</z>
+    <radius>250</radius>
+    <a_r>0.3</a_r>
+    <a_g>0.15</a_g>
+    <a_b>0.0</a_b>
+    <alpha>-45</alpha>
+    <atmosphere_thickness>5</atmosphere_thickness>
+    <atmosphere_falloff>10</atmosphere_falloff>
+    <rotation>-0.01</rotation>
+</planet>
+<sun>
+    <name>Sol2</name>
+    <sprite>./data/sun.jpg</sprite>
+    <x>-4000</x>
+    <y>200</y>
+    <z>400</z>
+    <radius>200</radius>
+    <r>0.1</r>
+    <g>0.1</g>
+    <b>0.4</b>
+</sun>
+<sun>
+    <name>Sol</name>
+    <sprite>./data/sun.jpg</sprite>
+    <x>-200</x>
+    <y>-100</y>
+    <z>-200</z>
+    <radius>500</radius>
+    <r>1.0</r>
+    <g>0.8</g>
+    <b>0.8</b>
+</sun>
+<sky>
+    <name>mustard</name>
+    <r>0.4</r>
+    <g>0.1</g>
+    <b>0.1</b>
+    <starfield>
+         <file>./data/star.bmp</file>
+         <maxsize>4</maxsize>
+         <minsize>1.5</minsize>
+         <minlum>0.3</minlum>
+         <maxlum>1.0</maxlum>
+         <number>300</number>
+         <seed>234231</seed>
+    </starfield>
+    <starfield>
+         <file>./data/star4.bmp</file>
+         <maxsize>5</maxsize>
+         <minsize>3</minsize>
+         <minlum>0.5</minlum>
+         <maxlum>1.0</maxlum>
+         <number>30</number>
+         <seed>2231</seed>
+    </starfield>
+    <starfield>
+         <file>./data/star2.bmp</file>
+         <maxsize>6.5</maxsize>
+         <minsize>2</minsize>
+         <minlum>0.1</minlum>
+         <maxlum>1.0</maxlum>
+         <number>50</number>
+         <seed>231</seed>
+    </starfield>    
+    <starfield>
+         <file>./data/sun.jpg</file>
+         <maxsize>17</maxsize>
+         <minsize>10</minsize>
+         <minlum>0.4</minlum>
+         <maxlum>0.8</maxlum>
+         <number>10</number>
+         <seed>231</seed>
+    </starfield>
+</sky>
+</system>
